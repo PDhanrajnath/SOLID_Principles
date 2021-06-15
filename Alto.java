@@ -1,22 +1,11 @@
 package SOLID;
 
 public class Alto extends Car implements  IVehicleRadio {
-	public void Start()
-    {
-        System.out.println("Car started!");
-    }
-    @Override
-    public void Horn() {
-    	System.out.println("Car HORN");
-    }
-    public void Stop()
-    {
-    	System.out.println("Car stopped!");
-    }
+	
 	@Override
 	public void limitSpeed() {
 		// TODO Auto-generated method stub
-		System.out.println("120 KMPH");
+		System.out.println("90 KMPH");
 	}
 	@Override
 	public void startRadio() {
@@ -33,15 +22,6 @@ public class Alto extends Car implements  IVehicleRadio {
 		// TODO Auto-generated method stub
 		System.out.println("Radio stopped...");
 	}
-	@Override
-	public void openDoors() {
-		// TODO Auto-generated method stub
-		System.out.println("Doors opened");
-	}
-	@Override
-	public void closeDoors() {
-		// TODO Auto-generated method stub
-		System.out.println("Doors closed");
-	}
+	
 
 }
